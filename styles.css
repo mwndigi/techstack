@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,13 +10,13 @@ ul {
     background-color: #333;
 }
 
-li {
+.navbar li {
     float: left;
     background-color: #fff;
     margin: 8px;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: black;
     text-align: center;
@@ -24,20 +24,19 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.navbar li a:hover {
     text-decoration: underline;
 }
 
-.active {
+.navbar .active {
     color: white;
     background-color: #4CAF50;
 }
 
-li:last-child {
+.navbar li:last-child {
     border-right: none;
 }
 
 .content {
     margin: 20px;
 }
-
