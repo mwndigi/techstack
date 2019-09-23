@@ -22,11 +22,12 @@ class Certification {
         return this.resultLimit;
     }
     getMyCert() {
-      document.getElementById("myCert1").innerHTML = this._user + ' scored ' + this._result + ' out of ' + this.resultLimit + ' for the certification ' + this.title + ' (ID: ' + this.id + ').';
+      document.getElementById("myCert").innerHTML = this._user + ' scored ' + this._result + ' out of ' + this.resultLimit + ' for the certification ' + this.title + ' (ID: ' + this.id + ').';
     }
 }
 
 let cert1 = new Certification();
+let cert2 = new Certification();
 
 cert1.setCertDetails('JavaScript Beginner Level', 1001, 'Mikkel Wessel Nielsen', 92);
 cert2.setCertDetails('JavaScript Master Level', 1002, 'Mikkel Wessel Nielsen', 78);
