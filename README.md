@@ -1,8 +1,6 @@
 ## Project TechStack
 
-Welcome to Tech Stack! 
-
-A technology stack - or tech stack - is a crucial part of developing any web or mobile application.
+Welcome to Tech Stack! A technology stack - or tech stack - is a crucial part of developing any web or mobile application.
 
 Developers refer to the term when speaking of the combination of programming languages, software and servers in a project.
 
