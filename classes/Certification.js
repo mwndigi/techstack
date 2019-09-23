@@ -1,28 +1,29 @@
-class Certification{
-
-    setCertDetails(title, id, _user, _result, resultLimit){
-        this.title = title;
-        this.id = id;
-        this._user = _user;
-        this._result = _result;
-        this.resultLimit = 100;
+class Certification {
+    setCertDetails(title, id, _user, _result) {
+    this.title = title;
+    this.id = id;
+    this._user = _user;
+    this._result = _result;
+    this.resultLimit = 100;
     }
-    getCertTitle(){
+    getCertTitle() {
         return this.title;
     }
-    getCertId(){
+    getCertId() {
         return this.id;
     }
-    getCertUser(){
-        return this._user;
+    getCertUser() {
+         return this._user;
     }
-    getCertResult(){
-        return this._result;
-    }
-    getCertResultLimit(){
+    getCertResult() {
+         return this._result;
+        }
+     getCertResultLimit() {
         return this.resultLimit;
     }
-
+    getMyCert() {
+      document.getElementById("myCert1").innerHTML = this._user + ' scored ' + this._result + ' out of ' + this.resultLimit + ' for the certification ' + this.title + ' (ID: ' + this.id + ').';
+    }
 }
 
 let cert1 = new Certification();
@@ -36,4 +37,4 @@ console.log(cert1.getCertUser());
 console.log(cert1.getCertResult());
 console.log(cert1.getCertResultLimit());
 
-document.getElementById("myCert1").innerHTML = cert1.getCertUser() + " scored " + cert1.getCertResult() + " out of " + cert1.getCertResultLimit() + " for the certification " + cert1.getCertTitle() + " (ID: " + cert1.getCertId() + ").";
+cert1.getMyCert();
