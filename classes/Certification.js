@@ -28,7 +28,8 @@ class Certification {
 
 let cert1 = new Certification();
 
-cert1.setCertDetails('JavaScript Master Level', 1001, 'Mikkel Wessel Nielsen', 92);
+cert1.setCertDetails('JavaScript Beginner Level', 1001, 'Mikkel Wessel Nielsen', 92);
+cert2.setCertDetails('JavaScript Master Level', 1002, 'Mikkel Wessel Nielsen', 78);
 
 console.log('Code works: ');
 console.log(cert1.getCertTitle());
