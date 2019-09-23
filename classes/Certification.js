@@ -39,4 +39,4 @@ console.log(cert1.getCertUser());
 console.log(cert1.getCertResult());
 console.log(cert1.getCertResultLimit());
 
-cert1.getMyCert();
+cert2.getMyCert();
