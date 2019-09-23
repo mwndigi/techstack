@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My application</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li style="float:right;"><a class="active" href="login.html">Login</a></li>
+    <li style="float:right;"><a class="active" href="register.html">Register</a></li>
+</ul>
+
+<div class="content">
+
+    <h1>Login</h1>
+    <form id="login-form">
+        <input id="enteredName" type="text" placeholder="Enter Username" autocomplete="new-username" value=""/>
+        <input id="enteredPass" type="password" placeholder="Enter Password" autocomplete="new-password" value=""/>
+        <input id="login_btn" type="submit" value="Login" onClick="checkLogin()"/>
+    </form>
+
+
+</div>
+
+<script src="app.js"> </script>
+
+</body>
+</html>

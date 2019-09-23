@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My application</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li style="float:right;"><a class="active" href="login.html">Login</a></li>
+    <li style="float:right;"><a class="active" href="register.html">Register</a></li>
+</ul>
+
+<div class="content">
+
+    <h1>Register</h1>
+
+    <form id="register-form">
+        <input id="username" type="text" placeholder="Username" autocomplete="new-username" value=""/>
+        <input id="password" type="password" placeholder="Password" autocomplete="new-username" value=""/>
+        <input id="registration_btn" type="submit" value="Register" onClick="storeLogin()"/>
+    </form>
+
+
+
+
+    <h2>Show user</h2>
+    <input id="list_users_btn" type="submit" value="Show user" onClick="showUser()"/>
+
+    <h2>Clear user</h2>
+    <input id="clear_users_btn" type="submit" value="Clear user" onClick="clearUser()"/>
+
+</div>
+
+<script src="app.js"> </script>
+
+</body>
+</html>
