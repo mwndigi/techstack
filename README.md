@@ -66,3 +66,6 @@ TechStack is a website for developers to learn about the newest technologies and
     
 ## Class diagram
 
+![Alt text](assets/techstack_uml.png?raw=true "TechStack UML Class Diagram")
+
+
