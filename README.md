@@ -53,7 +53,11 @@ TechStack is a website for developers to learn about the newest technologies and
     - Questions
     - Scoreboard
 - Certifications
-    - To be determined
+    - Title
+    - ID
+    - User
+    - Result
+    - Result limit = 100
 - User
     - Create
         - Username, password and email
