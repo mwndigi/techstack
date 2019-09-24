@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 
-.navbar ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,13 +10,13 @@ body {
     background-color: #333;
 }
 
-.navbar li {
+li {
     float: left;
     background-color: #fff;
     margin: 8px;
 }
 
-.navbar li a {
+li a {
     display: block;
     color: black;
     text-align: center;
@@ -24,16 +24,16 @@ body {
     text-decoration: none;
 }
 
-.navbar li a:hover {
+li a:hover {
     text-decoration: underline;
 }
 
-.navbar .active {
+.active {
     color: white;
     background-color: #4CAF50;
 }
 
-.navbar li:last-child {
+li:last-child {
     border-right: none;
 }
 
