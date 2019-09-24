@@ -33,11 +33,11 @@ cert1.setCertDetails('JavaScript Beginner Level', 1001, 'Mikkel Wessel Nielsen',
 cert2.setCertDetails('JavaScript Master Level', 1002, 'Mikkel Wessel Nielsen', 78);
 
 console.log('Code works: ');
-console.log(cert1.getCertTitle());
-console.log(cert1.getCertId());
+console.log(cert2.getCertTitle());
+console.log(cert2.getCertId());
 console.log(cert1.getCertUser());
-console.log(cert1.getCertResult());
+console.log(cert2.getCertResult());
 console.log(cert1.getCertResultLimit());
 
-cert1.getMyCert();
+cert2.getMyCert();
 

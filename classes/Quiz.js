@@ -1,7 +1,7 @@
 class Quiz {
     constructor(question, id){
         this.question = question;
-        this.id = id
+        this.id = id;
     }
 }
 
